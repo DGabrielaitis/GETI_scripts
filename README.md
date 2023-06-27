@@ -9,3 +9,4 @@ How to run the pipeline?
 4. After you have manually checked the data, run 1_cpGFP-mOrange_Finalisation.R (it should be in the folder in which you have stored the experiment folders.
 5. The final script will make a new excel sheet that will have the average, stdev and N for all of your experiment. You can ploit this in any software you please. It will always have the GFP and mOrange2 control in parallel. 
 
+![image](https://github.com/DGabrielaitis/GETI_scripts/assets/39090323/697c6db7-1b31-4654-b5a5-4c4f29004fc3)
