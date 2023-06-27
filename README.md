@@ -1,6 +1,6 @@
 # GETI_scripts
 These scripts were used to evaluate the tension sensors
-
+![image](https://github.com/DGabrielaitis/GETI_scripts/assets/39090323/697c6db7-1b31-4654-b5a5-4c4f29004fc3)
 How to run the pipeline?
 
 1. For every construct, create 3 (or 1-4) folders names exp# (exp1, exp2, etc). In which there should be a single file, containing the data exported by the NIS elements software. It should be an excel spreadsheat. IN the spreadsheat, every well/fov should be on a separate sheet, names W1I1, W1I2, etc. the code can do up to 2 wells and 5 images. For every time-lapse, the last ROI shoudl be the BACKGROUND!!!!!
@@ -9,4 +9,4 @@ How to run the pipeline?
 4. After you have manually checked the data, run 1_cpGFP-mOrange_Finalisation.R (it should be in the folder in which you have stored the experiment folders.
 5. The final script will make a new excel sheet that will have the average, stdev and N for all of your experiment. You can ploit this in any software you please. It will always have the GFP and mOrange2 control in parallel. 
 
-![image](https://github.com/DGabrielaitis/GETI_scripts/assets/39090323/697c6db7-1b31-4654-b5a5-4c4f29004fc3)
+
