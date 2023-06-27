@@ -1,6 +1,9 @@
 # GETI_scripts
 These scripts were used to evaluate the tension sensors
+
 ![image](https://github.com/DGabrielaitis/GETI_scripts/assets/39090323/697c6db7-1b31-4654-b5a5-4c4f29004fc3)
+
+
 How to run the pipeline?
 
 1. For every construct, create 3 (or 1-4) folders names exp# (exp1, exp2, etc). In which there should be a single file, containing the data exported by the NIS elements software. It should be an excel spreadsheat. IN the spreadsheat, every well/fov should be on a separate sheet, names W1I1, W1I2, etc. the code can do up to 2 wells and 5 images. For every time-lapse, the last ROI shoudl be the BACKGROUND!!!!!
